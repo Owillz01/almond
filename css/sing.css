@@ -1,0 +1,100 @@
+
+        /*body {
+            padding: 30px;
+        }*/
+
+        /* nav style starts here */
+        .navbar{
+            padding: 1.2rem 1rem;
+        }
+
+        #navbarNav{
+            text-align: right;
+        }
+
+        .logo {
+            font-family: 'Lato', sans-serif;
+            color: #00AEB5;
+            font-weight: bold;
+            /* padding: 40px 0px 0px 40px; */
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            padding: 7px 20px;
+            border-radius: 4px;
+            /* padding: 40px 40px 0px 0px; */
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link:active {
+            background: #00AEB5;
+            color: white;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link:hover {
+            background: #00AEB5;
+            color: white;
+        }
+
+        .navbar-toggler {
+            padding: .25rem .75rem;
+            font-size: 2em;
+            line-height: 1;
+            /*background-color: transparent;
+            border: 1px solid transparent;*/
+            border-radius: .25rem;
+            color: #00AEB5;
+        }
+
+        /* nav style ends here */
+        /* .rel{
+              position: relative;
+          } */
+        .signin {
+         /*   position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            */
+
+        }
+
+        .col-md-3 {
+            min-width: 275px !important;
+            margin-top: 20%;
+        }
+
+        h3 {
+            color: #00AEB5;
+            font-size: 1em;
+            padding-bottom: 14px;
+            text-align: center;
+        }
+
+        input {
+
+            border: 1px solid #00AEB5 !important;
+        }
+        form .form-group input::placeholder{
+            color: rgba(119, 116, 116, 0.418);
+            font-size: 12px;
+            font-weight: lighter;
+        }
+
+        button {
+            margin-bottom: 20px;
+            background: #00AEB5 !important;
+        }
+
+        p {
+            /* padding-top: 20px; */
+            font-size: 13px;
+            text-align: center;
+            color: grey;
+        }
+
+        p span {
+            color: #D90606;
+        }
+  

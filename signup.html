@@ -8,95 +8,19 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.css">
-    <style>
-        body {
-            padding: 30px;
-        }
-
-        /* nav style starts here */
-        .logo {
-            font-family: 'Lato', sans-serif;
-            color: #00AEB5;
-            font-weight: bold;
-            /* padding: 40px 0px 0px 40px; */
-        }
-
-        .navbar-expand-lg .navbar-nav .nav-link {
-            font-family: Arial, Helvetica, sans-serif;
-            color: black;
-            padding: 7px 20px;
-            border-radius: 4px;
-            /* padding: 40px 40px 0px 0px; */
-        }
-
-        .navbar-expand-lg .navbar-nav .nav-link:active {
-            background: #00AEB5;
-            color: white;
-        }
-
-        .navbar-expand-lg .navbar-nav .nav-link:hover {
-            background: #00AEB5;
-            color: white;
-        }
-
-        /* nav style ends here */
-        /* .rel{
-              position: relative;
-          } */
-        .signin {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-        }
-
-        .col-md-3 {
-            max-width: 100% !important;
-        }
-
-        h3 {
-            color: #00AEB5;
-            font-size: 24px;
-            padding-bottom: 14px;
-            text-align: center;
-        }
-
-        input {
-
-            border: 1px solid #00AEB5 !important;
-        }
-        input::placeholder{
-            color: red;
-        }
-
-        button {
-            margin-bottom: 20px;
-            background: #00AEB5 !important;
-        }
-
-        p {
-            /* padding-top: 20px; */
-            font-size: 13px;
-            text-align: center;
-            color: grey;
-        }
-
-        p span {
-            color: #D90606;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/sing.css">
+    
     <title>Sign Up</title>
 </head>
 
 <body>
-    <header class="container-fluid">
+    <section class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand logo" href="index.html">Sample</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <span class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <span >&#9776;</span>
+        </span>
             <div class="collapse flex-row-reverse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
 
@@ -118,8 +42,8 @@
         </nav>
 
         <section>
-            <div class="row">
-                <div class="signin">
+            <div class="row justify-content-around">
+                <div class="signin ">
                     <div class="col-md-3">
                         <h3>
                             Sing Up to Continue
