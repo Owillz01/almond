@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+        body {
+            padding: 30px;
+        }
+
+        /* nav style starts here */
+        .logo {
+            font-family: 'Lato', sans-serif;
+            color: #00AEB5;
+            font-weight: bold;
+            /* padding: 40px 0px 0px 40px; */
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            padding: 7px 20px;
+            border-radius: 4px;
+            /* padding: 40px 40px 0px 0px; */
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link:active {
+            background: #00AEB5;
+            color: white;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link:hover {
+            background: #00AEB5;
+            color: white;
+        }
+
+        /* nav style ends here */
+        /* .rel{
+              position: relative;
+          } */
+        .signin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .col-md-3 {
+            max-width: 100% !important;
+        }
+
+        h3 {
+            color: #00AEB5;
+            font-size: 24px;
+            padding-bottom: 14px;
+            text-align: center;
+        }
+
+        input {
+
+            border: 1px solid #00AEB5 !important;
+        }
+        input::placeholder{
+            color: red;
+        }
+
+        button {
+            margin-bottom: 20px;
+            background: #00AEB5 !important;
+        }
+
+        p {
+            /* padding-top: 20px; */
+            font-size: 13px;
+            text-align: center;
+            color: grey;
+        }
+
+        p span {
+            color: #D90606;
+        }
+    </style>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand logo" href="index.html">Sample</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse flex-row-reverse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Developer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Sing in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="row">
+                <div class="signin">
+                    <div class="col-md-3">
+                        <h3>
+                            Sing Up to Continue
+                        </h3>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+
+                            <!-- <div class="form-group">
+                                                        <label for="exampleInputPassword1">Password</label>
+                                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                                      </div> -->
+                            <button type="submit" class="btn btn-primary form-control">Register Now</button>
+                            <p>Already have an Account? <span>Sign In</span></p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
