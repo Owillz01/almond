@@ -1,0 +1,116 @@
+.container-fluid{
+    margin-top: 15px;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+    font-weight: lighter;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active, .navbar-expand-lg .navbar-nav .nav-link:hover{
+    border: solid 1px white;
+    color: white;
+    font-weight: lighter;
+
+}
+.photo img{
+    transform: rotate(-15deg);
+    position: absolute;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.details h2{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.details p{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.details img{
+    max-width:70px;
+}
+.details{
+    margin-top: 100px;
+}
+.banner{
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.bgWhite{
+    background: white;
+}
+.photo img{
+    max-width: 250px;
+    height: auto;
+    z-index: -1;
+    margin-left: -125px;
+}
+
+                            /* second section styling starts here */
+
+.how{
+    padding-top: 60px;
+    margin-bottom: 100px;
+    
+}
+.how h4{
+    font-size: 24px;
+    font-weight: lighter;
+    color: #00AEB5;
+    margin-bottom: 30px;
+}
+.fa-piggy-bank:before {
+    content: "\f4d3";
+    color: #00AEB5;
+    font-size: 40px;
+}
+
+.how h5{
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+.how p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.sample img{
+    max-width: 200px;
+    height: 180px;
+    top: 50px;
+    position: absolute;
+}
+
+.sample{
+    position: relative;
+}
+
+.sample h4{
+    color: #00AEB5;
+    font-size: 20px;
+}
+.sample p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.sample a{
+    color: #00AEB5;
+}
+.sample a:hover{
+    text-decoration: none;
+    color: #00AEB5;
+}
+.subrow img{
+    max-width: 180px;
+}
